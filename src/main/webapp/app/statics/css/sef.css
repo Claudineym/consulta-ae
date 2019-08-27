@@ -1,0 +1,177 @@
+.clear{
+	clear:both;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+} 
+* html .clearfix {
+	height: 1%;
+}
+html, body {
+	height: 100%;
+}
+.bodyTotal{
+	background-color: #FFFFFF;
+}
+body {
+    /*background: url("../images/new/bg.png") no-repeat scroll 50% 0 #F2F2F2 !important;*/
+    color: #000000;
+    font: 0.7em Verdana,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body.ac {
+    background: none repeat scroll 0 0 #000000 !important;
+    color: #FFFFFF;
+}
+img, label, h1, h2, h3, p, span {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font: 1.4em Verdana,Geneva,sans-serif;
+}
+h1, h2, h4, h5 {
+    color: #D71920;
+    border-bottom: 1px dotted #D8777B;
+}
+h3{
+	color: white;
+}
+
+h1.menuSubSite {
+    color: #D71920;
+    font: 1.4em Verdana,Geneva,sans-serif;
+    margin-bottom: 7px;
+}
+h1 a {
+    color: #D71920;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="password"], textarea, input[type="text"] {
+    border: 1px solid #C2CDD5;
+    color: #525252;
+}
+input[readonly] {
+	background-color:transparent !important;
+	border: 1px solid dotted;	
+}
+#wrap {
+    text-align: left;
+    width: 990px;
+	min-height: 100%;
+	margin: 0 auto -60px;
+	height:auto;
+}
+#wrap.login{
+    margin-top: -1px;
+    padding-top: 1px;
+}
+#wrap.login .logoGrande{
+    display: block;
+    margin: 50px auto 0;
+    width: 240px;
+}
+#containerLogin{
+	background-color: #FFFFFF;
+	box-shadow: 0 0 7px #555555;
+	margin: 35px auto 0;
+	padding: 20px 15px;
+	position: relative;
+	width: 550px;
+}
+#containerLogin #loginCD,
+#containerLogin #login{
+	width: 260px;
+	height:126px;
+}
+#containerLogin #versao{
+    position: absolute;
+	bottom: 5px;
+    right: 5px;
+}
+#containerLogin #login{
+    border-left: 2px dotted #D8777B;
+    float: right;
+    padding-left: 20px;
+}
+#containerLogin #loginCD{
+	float: left;
+}
+#containerLogin p {
+	margin-bottom: 2px;
+}
+#containerLogin applet {
+	display: block;
+    margin: 15px auto;
+}
+#containerLogin .listInputs{
+	display: block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#containerLogin .listInputs li{
+    display: block;
+    list-style: none outside none;
+    margin-bottom: 5px;
+}
+a:hover, a:active, a:focus {
+    outline: 0 none;
+}
+a {
+    color: #525252;
+}
+#header {
+    height: 135px;
+    /*background: url("./images/new/img_01.png") no-repeat scroll 0 bottom transparent;*/
+}
+.ac #header {
+    background: none repeat scroll 0 0 #000000;
+}
+#boxFuncionalidades {
+    height: 26px;
+    margin: 0;
+    padding-top: 9px;
+}
+#boxFuncionalidades span {
+    color: #FFFFFF;
+    float: left;
+}
+
+ui-panelgrid td{border:none;padding:4px 10px;}
+
+/*-------------- Certificado Digital -----------------------*/
+#caixa-login-certificado{
+	background: transparent url("../images/certificadoOff.png") no-repeat left top;
+	display: block;
+	width: 127px;
+	height: 56px;
+	text-indent: -9000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.app-bar{
+	background-color: black;
+}
+
+.icon-app-bar{
+	background: url("../images/new/logoGrande.png") no-repeat;
+}
+
+.userName{
+	margin-right: 5px;
+	margin-top: 15px;
+}

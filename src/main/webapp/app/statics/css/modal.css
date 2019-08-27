@@ -1,0 +1,48 @@
+
+
+
+
+/* ========== Inicio Modal Enquete ========== */
+.dialogModal {width:439px;color:#666666;font-family:Arial,Helvetica,sans-serif;font-size:12px;}
+.dialogModal .modalTop {background:url(/layout/images/new/bgModalEnqueteTop.png) no-repeat scroll right top transparent;width:442px;height:8px;}
+.dialogModal .modalMeio {background:url(/layout/images/new/bgModalEnqueteMeio.png) repeat-y scroll center top transparent; width:442px;}
+.dialogModal .modalBottom {background:url(/layout/images/new/bgModalEnqueteBotton.png) no-repeat scroll left bottom transparent;height:8px;position:relative;width:442px;}
+.dialogModal .tituloModal {float:left;height:20px;margin:10px auto 20px;padding-left:20px;width:419px;}
+.dialogModal .tituloModal h1{margin:0;border-bottom:3px solid #E8E8E8;color:#979696;font-size:1.9em;width:394px;}
+.dialogModal span.perguntaEnquete {display:inline-block;padding:10px 20px 0;width:400px;color:#848484;font-size:1.5em;}
+.dialogModal .resultadoEnquete{width:400px;margin-left:20px;color:#848484;}
+.dialogModal #webformReport{margin-top:5px;}
+.dialogModal .reportitem{padding-bottom:5px;}
+.dialogModal .reportitem .processbar{background:transparent url(/layout/images/new/barraModal.png) no-repeat scroll left bottom;height:17px;padding:1px 4px 9px 2px;width:161px;}
+.dialogModal .reportitem .processbar .bar{background:transparent url(/layout/images/new/resultadoBarraModal.png) repeat-x scroll left bottom;border:1px solid #E5E5E5;height:15px;width:100%;}
+.dialogModal .fechar {background:transparent url(/layout/images/new/closeModal.png) no-repeat scroll right top;cursor:pointer;height:30px;position:absolute;right:-10px;top:-10px;width:30px;}
+#overlayEnquete {position:fixed;left:0;top:0;z-index:9000;background-color:#000;/*display:none;*/}
+#boxModalEnquete .window  {position:fixed;left:0;top:0;/*display:none;*/z-index:9999;padding:20px;display: none;}
+#boxModalEnquete #dialogEnquete {padding:0;background-color:#ffffff;}
+/* ========== Fim Modal Enquete ========== */
+
+/* ========== Inicio Modal Enviar por e-mail ========== */
+.dialogModal .modalEnviarEmail .resultadoEnquete {margin-top:0;}
+.dialogModal  #webformReport{margin-top:0;}
+div#webformReport input[type=text]	{background:url(/layout/images/new/img_13.png) repeat-x #f7f6f6; font-family:Verdana, Geneva, sans-serif; font-size:1.1em; color:#9d9c9c; height:20px; *height:16px; border:1px solid #cdcdcd; padding:1px 0; *padding-top:4px; display:inline-block; position:relative;width:360px;}
+div#webformReport input.campoVazio {border:solid 2px #F55;}
+div#webformReport textarea {background:#fafafa bottom; width:360px;font:1.1em Verdana, Geneva, sans-serif; color:#9d9c9c; border:1px solid #c2cdd5;}
+.dialogModal .modalEnviarEmail .tituloModal{margin:10px auto 20px;}
+
+
+.t1, .t1 .botaoFade {background:url('/layout/images/new/botaoT1.png'); width:57px; height:22px;}
+.botaoFade {background-position:0 bottom; background-repeat:no-repeat; margin:0; padding:0; display:block; position:relative;}
+.botaoFade .botaoFade {background:inherit; background-position:0 top; width:100%; height:100%; position:absolute; z-index:1; top:0; left:0;}
+.botaoFade input {background:none; width:100%; height:100%; font:1em Verdana, Geneva, sans-serif; color:#7c7c7c; border:0; margin:0; padding:0; cursor:pointer; display:block; top:0; left:0;position:absolute; z-index:2;}
+
+.boxBotoesModal{width:300px;}
+.botoesModal {width:300px; text-align:center; margin: 5px 0 0 174px;height: 30px;}
+.botoesModal span.botaoFade.t1 {display:inline-block;}
+/* ========== Inicio Modal Enviar por e-mail ========== */
+
+/* ========== In�cio Mensagens (Aviso, Sucesso e Erro) ========== */
+.mensagensModal {margin-left:11px; margin-top:10px; width:95%;}
+p.aviso {background:url(/layout/images/new/img_14.png) no-repeat 5px 10px #fef8e2; font:normal 1.1em Verdana, Geneva, sans-serif; color:#cda102; border:1px solid #ffedad; margin:10px 0 10px 0; padding:11px 10px 10px 27px; }
+p.sucesso {background:url(/layout/images/new/img_16.png) no-repeat 5px 10px #e9fee2; font:normal 1.1em Verdana, Geneva, sans-serif; color:#23a400; border:1px solid #c8ffad; margin:10px 0 10px 0; padding:11px 10px 10px 27px;}
+p.erro {background:url(/layout/images/new/img_17.png) no-repeat 5px 10px #fee2e2; font:normal 1.1em Verdana, Geneva, sans-serif; color:#cd0202; border:1px solid #ffadad; margin:10px 0 10px 0; padding:11px 10px 10px 27px;}
+/* ========== Fim Mensagens (Aviso, Sucesso e Erro) ========== */

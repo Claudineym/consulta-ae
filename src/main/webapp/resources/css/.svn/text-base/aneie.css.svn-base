@@ -1,0 +1,6 @@
+.ui-dialog .ui-widget .ui-widget-content .ui-corner-all .ui-shadow{
+	top:123px;
+}
+.ui-menu .ui-widget-header h3 {
+	color: white;	
+}
